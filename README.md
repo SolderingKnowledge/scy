@@ -1,20 +1,13 @@
-`npm i express bcrypt` password hashing
+# Scy
+### Fullstack app in GraphQL API!
 
 
-`npm i body-parser` so we can make POST request and extract data from json
- 
-`npm i mongoose` 
+`npm i express`
 
-`npm i jsonwebtoken`
+`npm i --save-dev nodemon` install as dev dependency
 
-`npm i cors` 
+`npm i graphql express-graphql`
 
-`mkdir routes models middleware handlers`
-    
-`curl localhost:8081` to make request with curl
+`npm i lodash`
 
-`npm i dotenv` to store environmental variables
-
-`brew install httpie` install httpie
-
-`http POST localhost:8081/api/auth/signup` to make route call with httpie
+`npm i mongoose`

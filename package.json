@@ -1,0 +1,31 @@
+{
+  "name": "scy",
+  "version": "1.0.0",
+  "description": "Scy-fullstack app!",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SolderingKnowledge/scy.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SolderingKnowledge/scy/issues"
+  },
+  "homepage": "https://github.com/SolderingKnowledge/scy#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.4.0",
+    "lodash": "^4.17.20",
+    "mongoose": "^5.11.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}

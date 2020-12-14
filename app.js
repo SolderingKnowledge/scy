@@ -2,9 +2,13 @@ const express = require("express");
 const { graphqlHTTP } = require("express-graphql");
 const schema = require('./graphQL/schema');
 const mongoose = require("mongoose");
+const cors = require("cors");
 
 const app = express();
 const port = process.env.PORT || 5000;
+
+// allow cross origin request sharing
+app.use(cors());
 
 mongoose.connect("mongodb+srv://<username>:<password>@cluster0.2rogm.mongodb.net/<dbname>?retryWrites=true&w=majority", { useNewUrlParser: true, useUnifiedTopology: true });
 mongoose.connection.once("open", () => {

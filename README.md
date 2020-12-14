@@ -11,3 +11,5 @@
 `npm i lodash`
 
 `npm i mongoose`
+
+`npm i cors`

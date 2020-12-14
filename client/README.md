@@ -1,0 +1,1 @@
+`npm install @apollo/client graphql` it has everything you need in this package. Apollo-client v3.

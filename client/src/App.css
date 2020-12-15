@@ -1,38 +1,55 @@
-.App {
-  text-align: center;
+.app {
+    width: 600px;
+    margin: auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+    text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.list-books {
+    list-style : none;
+    text-align: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.books-container {
+    display: flex;
+    justify-content: space-between;
 }
 
-.App-link {
-  color: #61dafb;
+.books {
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0 0 1px 1px rgba(20,23,28,.1), 0 3px 1px 0 rgba(20,23,28,.1);
+    width: 250px;
+}
+.selected-book {
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0 0 1px 1px rgba(20,23,28,.1), 0 3px 1px 0 rgba(20,23,28,.1);
+    width: 250px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+form {
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+    width: 250px;
+    box-shadow: 0 0 1px 1px rgba(20,23,28,.1), 0 3px 1px 0 rgba(20,23,28,.1);
+}
+
+.box {
+    display: flex;
+    margin: 5px;
+    justify-content: space-between;
+}
+
+.button {
+    width: 70px;
+    margin: auto;
+    margin-top: 30px;
+}
+button {
+    padding: 5px;
+    width:  70px;
 }

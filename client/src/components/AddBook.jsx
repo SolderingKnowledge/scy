@@ -50,6 +50,7 @@ class AddBook extends Component {
                         { this.displayAuthors() }
                     </select>
                 </div>
+                {/* If this would not be a <form> i could just add an onClick and call submitForm() */}
                 <div className="button"><button>Add</button></div>
             </form>
         );
